@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.half-div{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-div img{
+    width: 100%;
+}
+.highlight{
+    color: orange;
+}
+.half-div h1{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.fist-div{
+    padding: 100px 0;
+}
+.half-div h3{
+    margin: 20px 0;
+}
+.half-div p{
+    color: rgba(34, 30, 30, 0.61);
+    margin: 0 0 20px 0;
+}
+.half-div .button{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 40px;
+    color: white;
+    background: #ee7250;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+}
