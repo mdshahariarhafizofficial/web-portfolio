@@ -12,10 +12,14 @@ body{
     margin-left: 5%;
     padding-left: 2%;
 }
+section{
+    padding-bottom: 60px;
+}
 .topper{
     background-image: url(img/top-banner.png);
-    height: 500px;
+    height: 650px;
     background-repeat: no-repeat;
+    padding-bottom: 50px;
 }
 .half-div img{
     width: 100%;
@@ -47,4 +51,18 @@ body{
     border: none;
     border-radius: 6px;
     text-decoration: none;
+}
+
+.middle{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat; 
+    height: 500px;
+    background-position: right;
+}
+.middle h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.middle h3{
+    font-weight: 500;
 }
