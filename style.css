@@ -12,6 +12,11 @@ body{
     margin-left: 5%;
     padding-left: 2%;
 }
+.topper{
+    background-image: url(img/top-banner.png);
+    height: 500px;
+    background-repeat: no-repeat;
+}
 .half-div img{
     width: 100%;
 }
