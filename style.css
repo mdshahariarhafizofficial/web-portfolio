@@ -56,8 +56,12 @@ section{
 .middle{
     background-image: url(img/dream-bg.png);
     background-repeat: no-repeat; 
-    height: 500px;
+    height: 350px;
     background-position: right;
+    padding-bottom: 50px;
+}
+.middle img{
+    width: 100%;
 }
 .middle h2{
     font-size: 40px;
@@ -65,4 +69,43 @@ section{
 }
 .middle h3{
     font-weight: 500;
+}
+.clear-fix{
+    clear: both;
+}
+.exp-section{
+    background-image: url(img/exp-bg.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-top: 50px;
+}
+.exp-section .headline{
+    font-size: 50px;
+    font-weight: 500;
+}
+.exp-section h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+.exp-section .half-div{
+    box-shadow: 10px 5px 40px gray;
+    height: 400px;
+    padding-top: 30px;
+}
+#exp-left{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    background: white;
+}
+#exp-right{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, rgb(14, 14, 226), rgb(21, 200, 255));
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    padding: 20px 0;
 }
